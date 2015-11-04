@@ -1,0 +1,12 @@
+To abtain all focussed image
+
+1. Install openCV
+2. run the following commands in the extracted directory
+	jai@server:~/jai/OpenCV/segment$ make
+	jai@server:~/jai/OpenCV/segment$ ./segment 0.7 700 100 data5-*.jpg 20
+
+--> press any key when done.
+
+total number of arguments: 8
+
+./segment sigma k min input1 input2 input3 input4 max_shift_for_anaglyph
