@@ -4,16 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/FeatureMatching.cpp \
-../src/temp.cpp 
+../src/FeatureMatching.cpp 
 
 OBJS += \
-./src/FeatureMatching.o \
-./src/temp.o 
+./src/FeatureMatching.o 
 
 CPP_DEPS += \
-./src/FeatureMatching.d \
-./src/temp.d 
+./src/FeatureMatching.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -46,7 +46,11 @@ int main() {
 		Mat surf = detectSurf(frame);
 		imshow("surf", surf);
 		key = waitKey(1);
-		cout << key << endl;
+/*		if (key == 's'){
+			imwrite("template_jai.jpg", frame );
+			cout << "Image saved to Desktop" << endl;
+		}
+		cout << key << endl;*/
 	}
 	return 0;
 }
