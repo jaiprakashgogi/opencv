@@ -1,23 +1,178 @@
-
-**** Build of configuration Debug for project FeatureMatching ****
-
+15:41:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
-Building file: ../src/FeatureMatching.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FeatureMatching.d" -MT"src/FeatureMatching.d" -o "src/FeatureMatching.o" "../src/FeatureMatching.cpp"
-Finished building: ../src/FeatureMatching.cpp
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
  
-Building target: FeatureMatching
-Invoking: GCC C++ Linker
-g++ -L/usr/local/lib -o "FeatureMatching"  ./src/FeatureMatching.o   -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_xfeatures2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core -lopencv_hal
-Finished building target: FeatureMatching
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
+Finished building target: FeatureLKT
  
-
-**** Build Finished ****
-
-**** Build of configuration Debug for project FeatureMatching ****
-
+15:42:05 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 make: Nothing to be done for `all'.
-
-**** Build Finished ****
+12:00:40 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+12:00:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
+Finished building target: FeatureLKT
+ 
+12:00:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
+Finished building target: FeatureLKT
+ 
+12:09:20 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
+Finished building target: FeatureLKT
+ 
+12:14:59 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:20:16: error: expected ';' at end of declaration
+    Mat matMask
+               ^
+               ;
+1 error generated.
+make: *** [src/FeatureLKT.o] Error 1
+12:15:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/lkdemo.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/lkdemo.d" -MT"src/lkdemo.o" -o "src/lkdemo.o" "../src/lkdemo.cpp"
+Finished building: ../src/lkdemo.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:19:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:26:30 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:27:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:28:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:31:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:32:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:32:53 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
+12:33:09 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+Finished building target: FeatureLKT
+ 
