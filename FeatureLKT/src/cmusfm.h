@@ -12,6 +12,8 @@
 #include "opencv2/videoio/videoio.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/calib3d.hpp"
+#include <opencv2/viz/vizcore.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
 
 #include <iostream>
 #include <ctype.h>
@@ -26,6 +28,7 @@ class cmusfm {
 public:
 	vector<Point2f> points[2];
 	vector<string> filenames;
+	Mat K; // intrinsic matrix
 	int no_images;
 	int MAX_COUNT;
 	vector<Scalar> color;
@@ -34,6 +37,8 @@ public:
 	virtual ~cmusfm();
 	void readfiles(string prefix);
 	Mat showKLT(int i);
+	Mat find3D();
+	void setIntrinsic(Mat K);
 };
 
 #endif /* CMUSFM_H_ */

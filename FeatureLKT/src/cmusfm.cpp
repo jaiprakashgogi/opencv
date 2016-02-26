@@ -6,6 +6,7 @@
  */
 
 #include "cmusfm.h"
+#define RESIZE 1
 
 cmusfm::cmusfm() :
 		no_images(0), MAX_COUNT(500) {
@@ -15,7 +16,6 @@ cmusfm::cmusfm() :
 				Scalar(rng.uniform(0, 255), rng.uniform(0, 255),
 						rng.uniform(0, 255)));
 	}
-
 	cout << __func__ << endl;
 }
 
@@ -23,7 +23,7 @@ cmusfm::~cmusfm() {
 	// TODO Auto-generated destructor stub
 }
 
-void cmusfm::readfiles( string prefix) {
+void cmusfm::readfiles(string prefix) {
 	int count = 0;
 	string image_name;
 	ifstream myfile(prefix + "dataset.txt");
@@ -35,8 +35,8 @@ void cmusfm::readfiles( string prefix) {
 	myfile.close();
 }
 
-Mat cmusfm::showKLT(int idx){
-	if(idx<0 || idx>no_images -1) {
+Mat cmusfm::showKLT(int idx) {
+	if (idx < 0 || idx > no_images - 1) {
 		cout << __func__ << ": File size exceeded" << endl;
 	}
 
@@ -45,7 +45,7 @@ Mat cmusfm::showKLT(int idx){
 
 	Mat gray1, gray2;
 	Mat im1 = imread(filenames.at(idx));
-	Mat im2 = imread(filenames.at(idx+1));
+	Mat im2 = imread(filenames.at(idx + 1));
 #if RESIZE
 	Mat frame1, frame2;
 	resize(im1, frame1, Size(), 0.25, 0.25);
@@ -59,12 +59,11 @@ Mat cmusfm::showKLT(int idx){
 	vector<uchar> status;
 	vector<float> err;
 
-	goodFeaturesToTrack(gray1, points[0], MAX_COUNT, 0.01, 10, Mat(), 3,
-			0, 0.04);
-	cornerSubPix(gray1, points[0], subPixWinSize, Size(-1, -1),
-			termcrit);
-	calcOpticalFlowPyrLK(gray1, gray2, points[0], points[1], status,
-			err, winSize, 3, termcrit, 0, 0.001);
+	goodFeaturesToTrack(gray1, points[0], MAX_COUNT, 0.01, 10, Mat(), 3, 0,
+			0.04);
+	cornerSubPix(gray1, points[0], subPixWinSize, Size(-1, -1), termcrit);
+	calcOpticalFlowPyrLK(gray1, gray2, points[0], points[1], status, err,
+			winSize, 3, termcrit, 0, 0.001);
 	size_t i, k;
 	for (i = k = 0; i < points[1].size(); i++) {
 		//if (!status[i])
@@ -86,4 +85,40 @@ Mat cmusfm::showKLT(int idx){
 	return im2;
 #endif
 
+}
+
+void cmusfm::setIntrinsic(Mat K1) {
+	K1.copyTo(K);
+}
+
+Mat cmusfm::find3D() {
+	Mat F = findFundamentalMat(Mat(points[0]), Mat(points[1]),
+	CV_FM_RANSAC, 3.f, 0.99f);
+	Mat E = K.t() * F * K; //according to HZ (9.12)
+
+	SVD svd(E);
+	Matx33d W(0, -1, 0,   //HZ 9.13
+			1, 0, 0, 0, 0, 1);
+	Matx33d Winv(0, 1, 0, -1, 0, 0, 0, 0, 1);
+	Mat_<double> R = svd.u * Mat(Winv) * svd.vt; //HZ 9.19
+	Mat_<double> t = svd.u.col(2); //u3
+	// Ref: http://stackoverflow.com/questions/12098363/testing-a-fundamental-matrix
+
+	Mat P = K * Mat(Matx34d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0));
+
+	Mat P1 = K
+			* Mat(
+					Matx34d(R(0, 0), R(0, 1), R(0, 2), t(0), R(1, 0), R(1, 1),
+							R(1, 2), t(1), R(2, 0), R(2, 1), R(2, 2), t(2)));
+
+	//cout << P << endl;
+	//cout << P1 << endl;
+
+	Mat point3DTH, point3DT;
+	triangulatePoints(P, P1, Mat(points[0]), Mat(points[1]), point3DTH);
+	point3DTH = point3DTH.t();
+	//transpose(point3DTH, point3DTH);
+	convertPointsFromHomogeneous(point3DTH, point3DT);
+	point3DT = point3DT.t();
+	return point3DT;
 }
