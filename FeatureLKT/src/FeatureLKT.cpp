@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 	Mat K(3, 3, CV_32F, val);
 	K.convertTo(K, CV_64F);
 	mSfm->setIntrinsic(K);
-	//cout << K << endl;
+
 	Mat img;
 
 	for (int i = 0; i < mSfm->no_images - 1; i++) {
