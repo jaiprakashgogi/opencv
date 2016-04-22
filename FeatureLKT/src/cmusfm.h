@@ -39,6 +39,7 @@ public:
 	Mat showKLT(int i);
 	Mat find3D();
 	void setIntrinsic(Mat K);
+	Mat findM2(Mat E);
 };
 
 #endif /* CMUSFM_H_ */

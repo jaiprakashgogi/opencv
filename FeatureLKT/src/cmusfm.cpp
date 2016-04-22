@@ -91,31 +91,62 @@ void cmusfm::setIntrinsic(Mat K1) {
 	K1.copyTo(K);
 }
 
+Mat cmusfm::findM2(Mat E) {
+	SVD svd_(E);
+	Mat_<double> diag = svd_.w;
+	double m = (diag(0,0) + diag(1,0)) / 2.f;
+	Matx33d W_(m, 0, 0, 0, m, 0, 0, 0, 0);
+	Mat E_s = svd_.u * Mat(W_) * svd_.vt;
+	SVD svd(E_s);
+	Matx33d W(0,-1,0,1,0,0,0,0,1);
+	Mat_<double> t = svd.u.col(2);
+	t = t/max(abs(t(0)), max(abs(t(1)), abs(t(2))));
+	//cout << t << endl;
+
+	vector<Mat> M2s;
+	Mat M1, M2, M3, M4;
+	hconcat(svd.u * Mat(W) * svd.vt, Mat(t), M1);
+	hconcat(svd.u * Mat(W) * svd.vt, Mat(-t), M2);
+	hconcat(svd.u * Mat(W.t()) * svd.vt, Mat(t), M3);
+	hconcat(svd.u * Mat(W.t()) * svd.vt, Mat(-t), M4);
+	M2s.push_back(M1);
+	M2s.push_back(M2);
+	M2s.push_back(M3);
+	M2s.push_back(M4);
+
+	// check if a point is in front of the camera.
+	Mat M1s = K * Mat(Matx34d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0));
+
+	Mat point3DTH, point3DT;
+	for(vector<Mat>::iterator it = M2s.begin(); it != M2s.end(); it++) {
+		Mat R = (*it)(Range(0,3), Range(0,3));
+		Mat t = (*it).col(3);
+		triangulatePoints(M1s, *it, Mat((points[0])[0]), Mat((points[1])[0]), point3DTH);
+		point3DTH = point3DTH.t();
+		convertPointsFromHomogeneous(point3DTH, point3DT);
+		Mat_<double> X1 = Mat_<double>(point3DT.t());
+		Mat_<double> P; hconcat(R, -R*t, P);
+		Mat_<double> X2 = (Mat_<double>(P)*Mat_<double>(point3DTH.t())).t();
+		if(X1(0,2) > 0 && X2(0,2) > 0){
+			return *it;
+		}
+	}
+	cout << "Unable to find M2" << endl;
+	return M2s.at(3);
+}
+
 Mat cmusfm::find3D() {
 	Mat F = findFundamentalMat(Mat(points[0]), Mat(points[1]),
 	CV_FM_RANSAC, 3.f, 0.99f);
 	Mat E = K.t() * F * K; //according to HZ (9.12)
 
 	SVD svd(E);
-	Matx33d W(0, -1, 0,   //HZ 9.13
-			1, 0, 0, 0, 0, 1);
-	Matx33d Winv(0, 1, 0, -1, 0, 0, 0, 0, 1);
-	Mat_<double> R = svd.u * Mat(Winv) * svd.vt; //HZ 9.19
-	Mat_<double> t = svd.u.col(2); //u3
 	// Ref: http://stackoverflow.com/questions/12098363/testing-a-fundamental-matrix
-
-	Mat P = K * Mat(Matx34d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0));
-
-	Mat P1 = K
-			* Mat(
-					Matx34d(R(0, 0), R(0, 1), R(0, 2), t(0), R(1, 0), R(1, 1),
-							R(1, 2), t(1), R(2, 0), R(2, 1), R(2, 2), t(2)));
-
-	//cout << P << endl;
-	//cout << P1 << endl;
+	Mat P1 = K * Mat(Matx34d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0));
+	Mat P2 = findM2(E);
 
 	Mat point3DTH, point3DT;
-	triangulatePoints(P, P1, Mat(points[0]), Mat(points[1]), point3DTH);
+	triangulatePoints(P1, P2, Mat(points[0]), Mat(points[1]), point3DTH);
 	point3DTH = point3DTH.t();
 	//transpose(point3DTH, point3DTH);
 	convertPointsFromHomogeneous(point3DTH, point3DT);

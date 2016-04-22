@@ -10,14 +10,14 @@
 
 int main(int argc, char** argv) {
 	namedWindow("LK", 1);
-	string prefix = "/Users/jaiprakashgogi/workspace/mscv-nea/data/FLT442_H_September_Woodland_Wires/";
+	string prefix = "/Users/jaiprakashgogi/workspace/mscv-nea/data/temple/";
 	// Allegheny_River_Crossing
 	// FLT442_H_September_Woodland_Wires
 	// Flying_Circus_Unit_Test_run09_A_Winter
-	//float val[] = { 1520.400000, 0.000000, 302.320000, 0.000000, 1525.900000,
-	//		246.870000, 0.000000, 0.000000, 1.000000 };
-	float val[] = { 3636.24649 * 0.25, 0.0, 1378.989775 * 0.25, 0.0, 3621.076208
-		* 0.25, 1135.851108 * 0.25, 0.0, 0.0, 1.0 };
+	float val[] = { 1520.400000, 0.000000, 302.320000, 0.000000, 1525.900000,
+			246.870000, 0.000000, 0.000000, 1.000000 };
+	//float val[] = { 3636.24649 * 0.25, 0.0, 1378.989775 * 0.25, 0.0, 3621.076208
+	//	* 0.25, 1135.851108 * 0.25, 0.0, 0.0, 1.0 };
 
 	// Initialize Viz
 	viz::Viz3d myWindow("Coordinate Frame");
