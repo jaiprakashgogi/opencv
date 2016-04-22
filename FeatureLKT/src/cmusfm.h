@@ -27,6 +27,7 @@ using namespace std;
 class cmusfm {
 public:
 	vector<Point2f> points[2];
+	Mat point_3d;
 	vector<string> filenames;
 	Mat K; // intrinsic matrix
 	int no_images;
@@ -40,6 +41,7 @@ public:
 	Mat find3D();
 	void setIntrinsic(Mat K);
 	Mat findM2(Mat E);
+	Mat getCamerapose(int id);
 };
 
 #endif /* CMUSFM_H_ */
