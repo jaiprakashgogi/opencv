@@ -1,86 +1,59 @@
-15:41:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+19:46:06 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
-Finished building: ../src/FeatureLKT.cpp
- 
-Building target: FeatureLKT
-Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
-Finished building target: FeatureLKT
- 
-15:42:05 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-make: Nothing to be done for `all'.
-12:00:40 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-make: Nothing to be done for `all'.
-12:00:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-Building file: ../src/FeatureLKT.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
-Finished building: ../src/FeatureLKT.cpp
- 
-Building target: FeatureLKT
-Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
-Finished building target: FeatureLKT
- 
-12:00:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-Building file: ../src/FeatureLKT.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
-Finished building: ../src/FeatureLKT.cpp
- 
-Building target: FeatureLKT
-Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
-Finished building target: FeatureLKT
- 
-12:09:20 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-Building file: ../src/FeatureLKT.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
-Finished building: ../src/FeatureLKT.cpp
- 
-Building target: FeatureLKT
-Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o   
-Finished building target: FeatureLKT
- 
-12:14:59 **** Incremental Build of configuration Debug for project FeatureLKT ****
-make all 
-Building file: ../src/FeatureLKT.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
-../src/FeatureLKT.cpp:20:16: error: expected ';' at end of declaration
-    Mat matMask
-               ^
-               ;
+../src/FeatureLKT.cpp:11:10: fatal error: 'pcl/point_cloud.h' file not found
+#include <pcl/point_cloud.h>
+         ^
 1 error generated.
 make: *** [src/FeatureLKT.o] Error 1
-12:15:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:08:41 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:11:10: fatal error: 'opencv2/viz.hpp' file not found
+#include <opencv2/viz.hpp>
+         ^
+1 error generated.
+make: *** [src/FeatureLKT.o] Error 1
+21:08:52 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:11:10: fatal error: 'opencv2/viz.hpp' file not found
+#include "opencv2/viz.hpp"
+         ^
+1 error generated.
+make: *** [src/FeatureLKT.o] Error 1
+21:35:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
 Finished building: ../src/FeatureLKT.cpp
  
-Building file: ../src/lkdemo.cpp
+Building file: ../src/cmusfm.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/lkdemo.d" -MT"src/lkdemo.o" -o "src/lkdemo.o" "../src/lkdemo.cpp"
-Finished building: ../src/lkdemo.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building file: ../src/readfile.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/readfile.d" -MT"src/readfile.o" -o "src/readfile.o" "../src/readfile.cpp"
+Finished building: ../src/readfile.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:19:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:36:25 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+21:37:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -89,10 +62,13 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:26:30 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:37:20 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+21:39:55 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -101,10 +77,13 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:27:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:41:21 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+21:42:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -113,10 +92,26 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+21:42:55 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:28:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:44:14 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -125,10 +120,13 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:31:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
+21:45:03 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+21:49:32 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -137,10 +135,10 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:32:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+22:00:54 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -149,22 +147,67 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:32:53 **** Incremental Build of configuration Debug for project FeatureLKT ****
+22:01:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:37:11: warning: unused variable 'translation_phase' [-Wunused-variable]
+    float translation_phase = 0.0, translation = 0.0;
+          ^
+../src/FeatureLKT.cpp:37:36: warning: unused variable 'translation' [-Wunused-variable]
+    float translation_phase = 0.0, translation = 0.0;
+                                   ^
+2 warnings generated.
 Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  
-12:33:09 **** Incremental Build of configuration Debug for project FeatureLKT ****
+22:09:12 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:35:33: warning: unused variable 'translation' [-Wunused-variable]
+        float translation_phase = 0.0, translation = 0.0;
+                                       ^
+../src/FeatureLKT.cpp:35:8: warning: unused variable 'translation_phase' [-Wunused-variable]
+        float translation_phase = 0.0, translation = 0.0;
+              ^
+2 warnings generated.
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:09:32 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:35:8: warning: unused variable 'translation_phase' [-Wunused-variable]
+        float translation_phase = 0.0, translation = 0.0;
+              ^
+../src/FeatureLKT.cpp:35:33: warning: unused variable 'translation' [-Wunused-variable]
+        float translation_phase = 0.0, translation = 0.0;
+                                       ^
+2 warnings generated.
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:14:39 **** Incremental Build of configuration Debug for project FeatureLKT ****
 make all 
 Building file: ../src/FeatureLKT.cpp
 Invoking: Cross G++ Compiler
@@ -173,6 +216,3151 @@ Finished building: ../src/FeatureLKT.cpp
  
 Building target: FeatureLKT
 Invoking: Cross G++ Linker
-g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/lkdemo.o   
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:15:31 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:15:56 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+22:16:59 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:24:08 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:24:40 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:27:56 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:29:34 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+../src/FeatureLKT.cpp:124:10: error: expected ';' at end of declaration
+                Mat dst
+                       ^
+                       ;
+1 error generated.
+make: *** [src/FeatureLKT.o] Error 1
+22:29:41 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:32:17 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:33:16 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:33:46 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:50:11: error: expected value in expression
+#if RESIZE
+          ^
+../src/cmusfm.cpp:75:11: error: expected value in expression
+#if RESIZE
+          ^
+../src/cmusfm.cpp:84:11: error: expected value in expression
+#if RESIZE
+          ^
+3 errors generated.
+make: *** [src/cmusfm.o] Error 1
+22:33:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:41:27 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:44:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:45:52 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:50:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:55:32 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+22:58:19 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:01:27 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:10:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:15:29 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:17:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:20:08 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:22:02 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:25:17 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:25:35 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+23:26:11 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+10:14:00 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+10:15:39 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+10:25:11 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+11:56:15 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+11:56:22 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+11:56:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+17:07:03 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+17:07:18 **** Clean-only build of configuration Debug for project FeatureLKT ****
+make clean 
+rm -rf  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o  ./src/FeatureLKT.d ./src/cmusfm.d ./src/readfile.d  FeatureLKT
+ 
+17:07:31 **** Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building file: ../src/readfile.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/readfile.d" -MT"src/readfile.o" -o "src/readfile.o" "../src/readfile.cpp"
+Finished building: ../src/readfile.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+17:07:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+17:10:30 **** Clean-only build of configuration Debug for project FeatureLKT ****
+make clean 
+rm -rf  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o  ./src/FeatureLKT.d ./src/cmusfm.d ./src/readfile.d  FeatureLKT
+ 
+17:10:32 **** Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building file: ../src/readfile.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/readfile.d" -MT"src/readfile.o" -o "src/readfile.o" "../src/readfile.cpp"
+Finished building: ../src/readfile.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+17:12:33 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+17:18:35 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+18:00:51 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:05:37 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/cmusfm.cpp:118:6: error: redefinition of 'P1'
+        Mat P1 = K
+            ^
+../src/cmusfm.cpp:108:6: note: previous definition is here
+        Mat P1 = findM2(E);
+            ^
+1 warning and 1 error generated.
+make: *** [src/cmusfm.o] Error 1
+18:05:48 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "cmusfm::findM2(cv::Mat)", referenced from:
+      cmusfm::find3D() in cmusfm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+18:06:14 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "cmusfm::findM2(cv::Mat)", referenced from:
+      cmusfm::find3D() in cmusfm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+18:06:29 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "cmusfm::findM2(cv::Mat&)", referenced from:
+      cmusfm::find3D() in cmusfm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+18:06:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/cmusfm.cpp:104:7: error: non-const lvalue reference to type 'cv::Mat' cannot bind to a temporary of type 'cv::MatExpr'
+        Mat& E = K.t() * F * K; //according to HZ (9.12)
+             ^   ~~~~~~~~~~~~~
+1 warning and 1 error generated.
+make: *** [src/cmusfm.o] Error 1
+18:07:13 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "cmusfm::findM2(cv::Mat&)", referenced from:
+      cmusfm::find3D() in cmusfm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+18:08:23 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/FeatureLKT.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/FeatureLKT.d" -MT"src/FeatureLKT.o" -o "src/FeatureLKT.o" "../src/FeatureLKT.cpp"
+Finished building: ../src/FeatureLKT.cpp
+ 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Undefined symbols for architecture x86_64:
+  "cmusfm::findM2(cv::Mat)", referenced from:
+      cmusfm::find3D() in cmusfm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [FeatureLKT] Error 1
+18:09:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:10:49 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:11:14 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:12:12 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+18:13:52 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:96:20: error: type 'cv::Mat' does not provide a subscript operator
+        double m = (svd_.w[0] + svd_.w[1]) / 2.f;
+                    ~~~~~~^~
+../src/cmusfm.cpp:96:32: error: type 'cv::Mat' does not provide a subscript operator
+        double m = (svd_.w[0] + svd_.w[1]) / 2.f;
+                                ~~~~~~^~
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+18:14:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:96:26: error: no matching function for call to object of type 'cv::Mat'
+        double m = (svd_.w(0) + svd_.w(1)) / 2.f;
+                                ^~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: no known conversion from 'int' to 'const Rect' (aka 'const Rect_<int>') for 1st argument
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: no known conversion from 'int' to 'const cv::Range *' for 1st argument
+Mat Mat::operator()(const Range* ranges) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: requires 2 arguments, but 1 was provided
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+18:15:48 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:16:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:16:31 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:96:14: error: no matching function for call to object of type 'cv::Mat'
+        double m = (svd_.w(0,0) + svd_.w(1,0)) / 2.f;
+                    ^~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:96:28: error: no matching function for call to object of type 'cv::Mat'
+        double m = (svd_.w(0,0) + svd_.w(1,0)) / 2.f;
+                                  ^~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+18:17:14 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:97:14: error: use of undeclared identifier 'diag'
+        double m = (diag(0,0) + diag(1,0)) / 2.f;
+                    ^
+../src/cmusfm.cpp:97:26: error: use of undeclared identifier 'diag'
+        double m = (diag(0,0) + diag(1,0)) / 2.f;
+                                ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+18:17:25 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:97:14: error: no matching function for call to object of type 'cv::Mat'
+        double m = (diag(0,0) + diag(1,0)) / 2.f;
+                    ^~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:97:26: error: no matching function for call to object of type 'cv::Mat'
+        double m = (diag(0,0) + diag(1,0)) / 2.f;
+                                ^~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+18:18:29 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:97:9: warning: unused variable 'm' [-Wunused-variable]
+        double m = (diag(0,0) + diag(1,0)) / 2.f;
+               ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:18:39 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:21:53 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:22:27 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:30:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:31:01 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:31:23 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+18:31:59 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:16:35 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:106:2: error: use of undeclared identifier 'vecot'
+        vecot<Mat> M2;
+        ^
+../src/cmusfm.cpp:106:8: error: 'Mat' does not refer to a value
+        vecot<Mat> M2;
+              ^
+/usr/local/include/opencv2/core/mat.hpp:740:18: note: declared here
+class CV_EXPORTS Mat
+                 ^
+../src/cmusfm.cpp:106:13: error: use of undeclared identifier 'M2'
+        vecot<Mat> M2;
+                   ^
+../src/cmusfm.cpp:107:43: error: use of undeclared identifier 'M2'
+        hconcat(svd.u * Mat(W) * svd.vt, Mat(t), M2[0]);
+                                                 ^
+../src/cmusfm.cpp:108:44: error: use of undeclared identifier 'M2'
+        hconcat(svd.u * Mat(W) * svd.vt, Mat(-t), M2[1]);
+                                                  ^
+../src/cmusfm.cpp:109:47: error: use of undeclared identifier 'M2'
+        hconcat(svd.u * Mat(W.t()) * svd.vt, Mat(t), M2[2]);
+                                                     ^
+../src/cmusfm.cpp:110:48: error: use of undeclared identifier 'M2'
+        hconcat(svd.u * Mat(W.t()) * svd.vt, Mat(-t), M2[3]);
+                                                      ^
+../src/cmusfm.cpp:114:10: error: use of undeclared identifier 'M2'
+        cout << M2[0] << M2[1] <<M2[2] <<M2[3] << endl;
+                ^
+../src/cmusfm.cpp:114:19: error: use of undeclared identifier 'M2'
+        cout << M2[0] << M2[1] <<M2[2] <<M2[3] << endl;
+                         ^
+../src/cmusfm.cpp:114:27: error: use of undeclared identifier 'M2'
+        cout << M2[0] << M2[1] <<M2[2] <<M2[3] << endl;
+                                 ^
+../src/cmusfm.cpp:114:35: error: use of undeclared identifier 'M2'
+        cout << M2[0] << M2[1] <<M2[2] <<M2[3] << endl;
+                                         ^
+11 errors generated.
+make: *** [src/cmusfm.o] Error 1
+19:16:51 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:18:11 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:20:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:114:6: error: too few template arguments for class template 'iterator'
+        for(iterator<Mat> it = M2.begin(); it != M2.end(); it++){
+            ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:442:30: note: template is declared here
+struct _LIBCPP_TYPE_VIS_ONLY iterator
+                             ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:20:18 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:114:11: error: too few template arguments for class template 'iterator'
+        for(std::iterator<Mat> it = M2.begin(); it != M2.end(); it++){
+                 ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:442:30: note: template is declared here
+struct _LIBCPP_TYPE_VIS_ONLY iterator
+                             ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:21:12 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:27:02 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:116:24: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = Mat(Matx33d(*it(0, 0), *it(0, 1), *it(0, 2), *it(1, 0), *it(1, 1),
+                                     ^~
+../src/cmusfm.cpp:116:35: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = Mat(Matx33d(*it(0, 0), *it(0, 1), *it(0, 2), *it(1, 0), *it(1, 1),
+                                                ^~
+../src/cmusfm.cpp:116:46: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = Mat(Matx33d(*it(0, 0), *it(0, 1), *it(0, 2), *it(1, 0), *it(1, 1),
+                                                           ^~
+../src/cmusfm.cpp:116:57: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = Mat(Matx33d(*it(0, 0), *it(0, 1), *it(0, 2), *it(1, 0), *it(1, 1),
+                                                                      ^~
+../src/cmusfm.cpp:116:68: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = Mat(Matx33d(*it(0, 0), *it(0, 1), *it(0, 2), *it(1, 0), *it(1, 1),
+                                                                                 ^~
+../src/cmusfm.cpp:117:8: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                                                *it(1, 2), *it(2, 0), *it(2, 1), *it(2, 2)));
+                                                 ^~
+../src/cmusfm.cpp:117:19: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                                                *it(1, 2), *it(2, 0), *it(2, 1), *it(2, 2)));
+                                                            ^~
+../src/cmusfm.cpp:117:30: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                                                *it(1, 2), *it(2, 0), *it(2, 1), *it(2, 2)));
+                                                                       ^~
+../src/cmusfm.cpp:117:41: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                                                *it(1, 2), *it(2, 0), *it(2, 1), *it(2, 2)));
+                                                                                  ^~
+../src/cmusfm.cpp:118:14: error: no member named 'col' in 'std::__1::__wrap_iter<cv::Mat *>'; did you mean to use '->' instead of '.'?
+                Mat t = *it.col(2);
+                           ^
+                           ->
+../src/cmusfm.cpp:118:11: error: indirection requires pointer operand ('cv::Mat' invalid)
+                Mat t = *it.col(2);
+                        ^~~~~~~~~~
+11 errors generated.
+make: *** [src/cmusfm.o] Error 1
+19:30:05 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:30:40 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:31:02 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:31:37 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:32:22 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:32:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:21: error: no viable conversion from 'cv::Mat' to 'int'
+                cout << (*it).col(i) << endl;
+                                  ^
+/usr/local/include/opencv2/core/mat.hpp:1489:28: note: candidate template ignored: could not match 'vector<type-parameter-0-0, allocator<type-parameter-0-0> >' against 'int'
+    template<typename _Tp> operator std::vector<_Tp>() const;
+                           ^
+/usr/local/include/opencv2/core/mat.hpp:1490:35: note: candidate template ignored: could not match 'Vec<type-parameter-0-0, cn>' against 'int'
+    template<typename _Tp, int n> operator Vec<_Tp, n>() const;
+                                  ^
+/usr/local/include/opencv2/core/mat.hpp:1491:42: note: candidate template ignored: could not match 'Matx<type-parameter-0-0, m, n>' against 'int'
+    template<typename _Tp, int m, int n> operator Matx<_Tp, m, n>() const;
+                                         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:610:18: note: passing argument to parameter 'x' here
+Mat Mat::col(int x) const
+                 ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:32:53 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:33:01 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:33:22 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:33:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:120:11: error: no matching function for call to object of type 'cv::Mat'
+                cout << (*it)(0,0) << endl;
+                        ^~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:34:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:120:17: error: no matching member function for call to 'at'
+                cout << (*it).at(0,0) << endl;
+                        ~~~~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:34:25 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:120:15: error: no matching member function for call to 'at'
+                cout << it->at(0,0) << endl;
+                        ~~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:35:28 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:35:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:35:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:38:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:119:11: error: type 'vector<cv::Mat>' does not provide a call operator
+                Mat R = M2(Range(0,2), Range(0,2));
+                        ^~
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:39:05 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:119:12: error: type 'vector<Mat>::iterator' (aka '__wrap_iter<cv::Mat *>') does not provide a call operator
+                Mat R = *it(Range(0,2), Range(0,2));
+                         ^~
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:39:24 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:39:39 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:42:41 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:43:35 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:117:20: error: no member named 'x' in 'std::__1::vector<cv::Point_<float>, std::__1::allocator<cv::Point_<float> > >'
+        cout << points[0].x << endl;
+                ~~~~~~~~~ ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:44:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:45:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:45:26 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:46:10 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:47:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:47:59 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:48:18 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:49:02 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:117:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:50:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:52:21 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:118:6: error: redefinition of 'M1'
+        Mat M1 = K * Mat(Matx34d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0));
+            ^
+../src/cmusfm.cpp:107:6: note: previous definition is here
+        Mat M1, M2, M3, M4;
+            ^
+../src/cmusfm.cpp:122:36: error: no matching member function for call to 'begin'
+        for(vector<Mat>::iterator it = M2.begin(); it != M2.end(); it++) {
+                                       ~~~^~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:1029:29: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatConstIterator_<_Tp> Mat::begin() const
+                            ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1045:24: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatIterator_<_Tp> Mat::begin()
+                       ^
+../src/cmusfm.cpp:122:54: error: no matching member function for call to 'end'
+        for(vector<Mat>::iterator it = M2.begin(); it != M2.end(); it++) {
+                                                         ~~~^~~
+/usr/local/include/opencv2/core/mat.inl.hpp:1036:29: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatConstIterator_<_Tp> Mat::end() const
+                            ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1052:24: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatIterator_<_Tp> Mat::end()
+                       ^
+3 errors generated.
+make: *** [src/cmusfm.o] Error 1
+19:52:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:122:36: error: no matching member function for call to 'begin'
+        for(vector<Mat>::iterator it = M2.begin(); it != M2.end(); it++) {
+                                       ~~~^~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:1029:29: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatConstIterator_<_Tp> Mat::begin() const
+                            ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1045:24: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatIterator_<_Tp> Mat::begin()
+                       ^
+../src/cmusfm.cpp:122:54: error: no matching member function for call to 'end'
+        for(vector<Mat>::iterator it = M2.begin(); it != M2.end(); it++) {
+                                                         ~~~^~~
+/usr/local/include/opencv2/core/mat.inl.hpp:1036:29: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatConstIterator_<_Tp> Mat::end() const
+                            ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1052:24: note: candidate template ignored: couldn't infer template argument '_Tp'
+MatIterator_<_Tp> Mat::end()
+                       ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+19:52:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:53:43 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:130:13: error: type 'cv::Mat' does not provide a subscript operator
+                cout << M2[i++] << point3DT << endl;
+                        ~~^~~~
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+19:53:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:54:17 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:56:17 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:56:33 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:56:45 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:57:07 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:57:23 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:57:37 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:58:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:58:18 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:58:35 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+19:58:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:00:45 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:01:45 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:02:50 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:03:05 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:03:25 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:04:52 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:05:24 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:05:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:06:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:06:47 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:07:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:08:12 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:08:23 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:08:54 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:10:22 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:133:17: error: called object type 'int' is not a function or function pointer
+                cout << P.rows() << point3DTH << endl;
+                        ~~~~~~^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:10:28 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:10:38 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:10:49 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:10:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:11:38 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:11:49 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:12:15 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:13:21 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:13:29 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:13:53 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:14:08 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:14:55 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:15:15 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:15:27 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:15:49 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:16:21 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:18:01 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:128:27: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0), point3DT(1), point3DT(2));
+                                        ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: no known conversion from 'int' to 'const Rect' (aka 'const Rect_<int>') for 1st argument
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: no known conversion from 'int' to 'const cv::Range *' for 1st argument
+Mat Mat::operator()(const Range* ranges) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: requires 2 arguments, but 1 was provided
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+../src/cmusfm.cpp:128:40: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0), point3DT(1), point3DT(2));
+                                                     ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: no known conversion from 'int' to 'const Rect' (aka 'const Rect_<int>') for 1st argument
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: no known conversion from 'int' to 'const cv::Range *' for 1st argument
+Mat Mat::operator()(const Range* ranges) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: requires 2 arguments, but 1 was provided
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:18:18 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:128:14: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(1,0), point3DT(2,0));
+                           ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:128:29: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(1,0), point3DT(2,0));
+                                          ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:128:44: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(1,0), point3DT(2,0));
+                                                         ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+3 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:18:41 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:128:14: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(0,1), point3DT(0,2));
+                           ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:128:29: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(0,1), point3DT(0,2));
+                                          ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:128:44: error: no matching function for call to object of type 'cv::Mat'
+                Matx31d X1(point3DT(0,0), point3DT(0,1), point3DT(0,2));
+                                                         ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+3 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:19:16 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:19:47 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:20:06 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:20:28 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:53: error: type 'cv::Mat' does not provide a subscript operator
+                cout << point3DT.rows << point3DT.cols << point3DT[0] << endl;
+                                                          ~~~~~~~~^~
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:20:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:21:47 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:22:00 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:22:08 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:24:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:25:36 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:28:01 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+make: Nothing to be done for `all'.
+20:28:31 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:28:57 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:20: error: no matching member function for call to 'at'
+                cout << point3DT.at(0)<< endl;
+                        ~~~~~~~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate template ignored: could not match 'Vec<int, n>' against 'int'
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate template ignored: could not match 'Vec<int, n>' against 'int'
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate function template not viable: requires 2 arguments, but 1 was provided
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 1 was provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 1 was provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:29:06 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:20: error: no matching member function for call to 'at'
+                cout << point3DT.at(0,0)<< endl;
+                        ~~~~~~~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:30:45 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:30:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:31:51 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:32:03 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:32:47 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:33:13 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:33:33 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:34:11 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:34:32 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:34:44 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:35:09 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:35:34 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:11: error: no matching function for call to object of type 'cv::Mat'
+                cout << X2(2) << point3DT(2) << endl;
+                        ^~
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: no known conversion from 'int' to 'const Rect' (aka 'const Rect_<int>') for 1st argument
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: no known conversion from 'int' to 'const cv::Range *' for 1st argument
+Mat Mat::operator()(const Range* ranges) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: requires 2 arguments, but 1 was provided
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+../src/cmusfm.cpp:132:20: error: no matching function for call to object of type 'cv::Mat'
+                cout << X2(2) << point3DT(2) << endl;
+                                 ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: no known conversion from 'int' to 'const Rect' (aka 'const Rect_<int>') for 1st argument
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: no known conversion from 'int' to 'const cv::Range *' for 1st argument
+Mat Mat::operator()(const Range* ranges) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: requires 2 arguments, but 1 was provided
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:35:56 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:11: error: no matching function for call to object of type 'cv::Mat'
+                cout << X2(0,2) << point3DT(0,2) << endl;
+                        ^~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+../src/cmusfm.cpp:132:22: error: no matching function for call to object of type 'cv::Mat'
+                cout << X2(0,2) << point3DT(0,2) << endl;
+                                   ^~~~~~~~
+/usr/local/include/opencv2/core/mat.inl.hpp:690:10: note: candidate function not viable: no known conversion from 'int' to 'cv::Range' for 1st argument
+Mat Mat::operator()( Range _rowRange, Range _colRange ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:696:10: note: candidate function not viable: requires single argument 'roi', but 2 arguments were provided
+Mat Mat::operator()( const Rect& roi ) const
+         ^
+/usr/local/include/opencv2/core/mat.inl.hpp:702:10: note: candidate function not viable: requires single argument 'ranges', but 2 arguments were provided
+Mat Mat::operator()(const Range* ranges) const
+         ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:36:20 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:132:14: error: no matching member function for call to 'at'
+                cout << X2.at(0,2) << point3DT.at(0,2) << endl;
+                        ~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+../src/cmusfm.cpp:132:34: error: no matching member function for call to 'at'
+                cout << X2.at(0,2) << point3DT.at(0,2) << endl;
+                                      ~~~~~~~~~^~
+/usr/local/include/opencv2/core/mat.inl.hpp:913:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Tp& Mat::at(int i0, int i1)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:924:17: note: candidate template ignored: couldn't infer template argument '_Tp'
+const _Tp& Mat::at(int i0, int i1) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:957:11: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+_Tp& Mat::at(int i0)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:972:17: note: candidate function template not viable: allows at most single argument 'i0', but 2 arguments were provided
+const _Tp& Mat::at(int i0) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:987:11: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+_Tp& Mat::at(int i0, int i1, int i2)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:994:17: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+const _Tp& Mat::at(int i0, int i1, int i2) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:935:11: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+_Tp& Mat::at(Point pt)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:946:17: note: candidate function template not viable: requires single argument 'pt', but 2 arguments were provided
+const _Tp& Mat::at(Point pt) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1001:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const int* idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1008:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const int* idx) const
+                ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1015:11: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+_Tp& Mat::at(const Vec<int, n>& idx)
+          ^
+/usr/local/include/opencv2/core/mat.inl.hpp:1022:17: note: candidate function template not viable: requires single argument 'idx', but 2 arguments were provided
+const _Tp& Mat::at(const Vec<int, n>& idx) const
+                ^
+2 errors generated.
+make: *** [src/cmusfm.o] Error 1
+20:37:24 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:37:42 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:37:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:130:50: error: expected ';' at end of declaration
+                Mat_<double> X2 = P*Mat_<double>(point3DTH.t())).t();
+                                                               ^
+                                                               ;
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:38:16 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:39:28 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:39:48 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:128:33: error: expected '(' for function-style cast or type construction
+                Mat_<double> X1 = Mat_<double>point3DT;
+                                  ~~~~~~~~~~~~^
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:40:02 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:40:22 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:40:43 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:41:04 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:41:51 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:121:6: warning: unused variable 'i' [-Wunused-variable]
+        int i =0;
+            ^
+1 warning generated.
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
+Finished building target: FeatureLKT
+ 
+20:47:21 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+../src/cmusfm.cpp:134:9: error: type 'vector<cv::Mat>' does not provide a call operator
+        return M2s(3);
+               ^~~
+1 error generated.
+make: *** [src/cmusfm.o] Error 1
+20:47:58 **** Incremental Build of configuration Debug for project FeatureLKT ****
+make all 
+Building file: ../src/cmusfm.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 `pkg-config --cflags opencv` -MMD -MP -MF"src/cmusfm.d" -MT"src/cmusfm.o" -o "src/cmusfm.o" "../src/cmusfm.cpp"
+Finished building: ../src/cmusfm.cpp
+ 
+Building target: FeatureLKT
+Invoking: Cross G++ Linker
+g++ -Xlinker `pkg-config --libs opencv` -o "FeatureLKT"  ./src/FeatureLKT.o ./src/cmusfm.o ./src/readfile.o   
 Finished building target: FeatureLKT
  

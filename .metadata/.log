@@ -52,3 +52,141 @@ java.io.FileNotFoundException: /Users/jaiprakashgogi/workspace/opencv/FeatureLKT
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-02-22 12:06:17.305 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-22 12:06:17.923
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-22 12:06:17.924
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-22 12:07:12.724
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-22 12:07:13.709
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-22 12:07:13.709
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+!SESSION 2016-02-24 20:15:55.196 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data /Users/jaiprakashgogi/workspace/OpenCV -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-24 20:15:55.860
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-24 20:15:55.861
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-24 20:15:59.450
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-24 20:16:00.419
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-24 20:16:00.419
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-25 19:35:47.868
+!MESSAGE Indexed 'FeatureLKT' (3 sources, 543 headers) in 7.21 sec: 48,875 declarations; 121,998 references; 29 unresolved inclusions; 53 syntax errors; 1,047 unresolved names (0.61%)
+!SESSION 2016-02-25 19:41:40.884 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 19:41:41.491
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 19:41:41.492
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-25 19:41:47.465
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 19:41:48.426
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 19:41:48.427
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-25 19:44:11.328
+!MESSAGE Indexed 'FeatureLKT' (3 sources, 241 headers) in 7.37 sec: 45,190 declarations; 84,640 references; 6 unresolved inclusions; 40 syntax errors; 729 unresolved names (0.56%)
+!SESSION 2016-02-25 21:38:07.718 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 21:38:08.339
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 21:38:08.339
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-25 21:38:14.133
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 21:38:15.128
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-02-25 21:38:15.128
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+!SESSION 2016-03-03 11:55:27.301 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-03-03 11:55:28.008
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-03-03 11:55:28.009
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-03-03 11:55:47.141
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-03-03 11:55:48.283
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-03-03 11:55:48.283
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+!SESSION 2016-04-21 17:06:46.317 -----------------------------------------------
+eclipse.buildId=4.6.0.I20151209-2300
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/jaiprakashgogi/workspace/opencv -product org.eclipse.epp.package.cpp.product -keyring /Users/jaiprakashgogi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-04-21 17:06:47.218
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-04-21 17:06:47.219
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-21 17:06:50.338
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-04-21 17:06:51.239
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-04-21 17:06:51.239
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
